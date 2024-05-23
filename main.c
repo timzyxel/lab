@@ -58,4 +58,6 @@ int main()
 		printf("alert");
 		return 0;
 	}
+	system("pause");
+	return 0;
 }
