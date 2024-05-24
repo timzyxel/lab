@@ -3,14 +3,16 @@
 
 int main()
 {
+	char *locate = setlocale(LC_ALL, "");
 	int n,x;
-	printf("Choose lab\n");
+	printf("Выбери лабу 1-7\n");
 	scanf("%d", &n);
-	printf("Choose task (1,2)\n");
+	printf("выбери задачу (1,2)\n");
 	scanf("%d", &x);
 	if(x!=1 && x!=2)
 	{
 		printf("alert");
+		system("pause");
 		return 0;
 	}
 	switch (n) {
@@ -56,7 +58,6 @@ int main()
 		break;
 	default:
 		printf("alert");
-		return 0;
 	}
 	system("pause");
 	return 0;

@@ -1,5 +1,6 @@
 #ifndef LAB_H
 #include <stdio.h>
+#include<locale.h>
 #define LAB_H
 #define _CRT_SECURE_NO_WARNINGS
 
